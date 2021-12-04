@@ -15,3 +15,20 @@ module.exports = {
   }
 }
 
+
+/*
+
+
+module.exports = withTM({
+  async redirects() {
+    return [
+      {
+        source: '/',
+        destination: '/edge',
+        permanent: false,
+      },
+    ]
+  },
+})
+
+*/
